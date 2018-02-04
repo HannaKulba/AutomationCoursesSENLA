@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="pageobjecttests.TestLoginPagePageObject">
+        <methods>
+          <include name="incorrectPasswordWithNumbers"/>
+          <include name="incorrectUsernameSpace"/>
+          <include name="incorrectPasswordWithSymbols"/>
+          <include name="userloginIsCorrect"/>
+          <include name="incorrectPasswordIsEmpty"/>
+          <include name="incorrectUsernameWithSpaceBefore"/>
+          <include name="incorrectUsernameByCapsLock"/>
+          <include name="closeWindow"/>
+          <include name="incorrectPasswordAndUsernameAreEmpty"/>
+          <include name="incorrectUsernameOnEnglish"/>
+          <include name="incorrectUsernameOnRussian"/>
+          <include name="incorrectPasswordByCapsLock"/>
+          <include name="incorrectPasswordSpace"/>
+          <include name="incorrectPasswordOnEnglish"/>
+          <include name="icorrectUsernameWithNumbers"/>
+          <include name="incorrectUsernameWithSpaceInTheEnd"/>
+          <include name="incorrectPasswordOnRussian"/>
+          <include name="incorrectUsernameWithSymbols"/>
+          <include name="incorrectUsernameOnEngWithSymbAndNumb"/>
+          <include name="incorrectPasswordOnEngWithSymbAndNumb"/>
+          <include name="incorrectUsernameAndPasswordSpace"/>
+          <include name="incorrectUsernameIsEmpty"/>
+          <include name="incorrectUsernameByCapsLockFirstLetter"/>
+          <include name="setup"/>
+          <include name="incorrectUsernameWithSpaceInTheMiddle"/>
+        </methods>
+      </class> <!-- pageobjecttests.TestLoginPagePageObject -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
